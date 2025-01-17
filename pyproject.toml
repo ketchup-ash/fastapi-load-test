@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mongo-test"
+version = "0.1.0"
+description = ""
+authors = ["Prashant Singh <mailing2ash@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.115.6"}
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+motor = "^3.6.1"
+beanie = "^1.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
